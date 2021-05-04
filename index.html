@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dan's Form Page</title>
+  </head>
+  <body>
+    <h1>This is a Form</h1>
+    <p>
+      This is a page for Dan, the rock, paper, scissors Champion. Submit below
+      to challenge him in a game of rock, paper, scissors. <a href="">Anchor</a>
+    </p>
+    <br />
+    <p>Now i'm going to make a list of three types of links.</p>
+    <br />
+    <ul>
+      <!-- add list elements here -->
+      <li>
+        Absolute links, like to
+        <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors"
+          >RPS_Wikipedia_Page</a
+        >.
+      </li>
+
+      <li>
+        Relative links, like to our <a href="example1.html">example1</a> page.
+      </li>
+
+      <li></li>
+    </ul>
+    <form action="">
+      <!-- First Name -->
+      <!-- Last Name -->
+      <!-- Email -->
+      <!-- Password -->
+      <!-- DOB -->
+      <p>Enter Your Information Below</p>
+
+      <div>
+        <label for="">First Name: </label>
+        <input type="text" required />
+      </div>
+      <div><label for="">Last Name: </label><input type="text" required /></div>
+      <div><label for="">Email: </label><input type="email" required /></div>
+
+      <div>
+        <label for="">Password (at least 8 characters): </label>
+        <input type="text" required minlength="8" placeholder="Password" />
+      </div>
+      <div>
+        <label for="">Check Yes or No: </label
+        ><input type="checkbox" name="Yes or No" id="Y/N" />
+      </div>
+      <div>
+        <label for="">Date of Birth: </label
+        ><input type="date" name="Date" id="Date" />
+      </div>
+      <div><label for="">Submit</label> <input type="button" value="" /></div>
+      <div><input type="submit" value="Send Info" /></div>
+    </form>
+  </body>
+</html>
